@@ -7,7 +7,7 @@ about:
   head: 0766b73
   archived: false
   latestVersion: 26.03
-  collectedAt: 2026-09-04T19:32:27Z
+  collectedAt: 2026-09-04T20:59:09Z
 timeline:
   created: 2022-03-05
   lastCommit: 2026-09-04
@@ -83,5 +83,58 @@ total:
   openIssue: 163
   commit: 16
 ---
+path: /home/runner/.x-repo/github.com/ip7z/7zip
+collectedAt: 2026-09-04T20:59:10Z
+loc:
+  Cpp:
+    code: 184245
+    comments: 28075
+    blanks: 31935
+    files: 438
+  C:
+    code: 37018
+    comments: 5504
+    blanks: 7092
+    files: 73
+  CHeader:
+    code: 34079
+    comments: 7128
+    blanks: 10095
+    files: 488
+  Makefile:
+    code: 5150
+    comments: 146
+    blanks: 761
+    files: 89
+  Assembly:
+    code: 3722
+    comments: 447
+    blanks: 1072
+    files: 10
+  AssemblyGAS:
+    code: 1223
+    comments: 132
+    blanks: 319
+    files: 2
+  ModuleDef:
+    code: 64
+    comments: 16
+    blanks: 16
+    files: 7
+  Markdown:
+    code: 0
+    comments: 2
+    blanks: 0
+    files: 1
+  Text:
+    code: 0
+    comments: 2506
+    blanks: 781
+    files: 10
+total:
+  code: 265501
+  comments: 43956
+  blanks: 52071
+  files: 1118
 ---
 
