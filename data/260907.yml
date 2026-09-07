@@ -5,19 +5,19 @@ about:
   head: 0766b73
   archived: false
   latestVersion: "26.03"
-  collectedAt: 2026-09-07T06:04:43Z
+  collectedAt: 2026-09-07T18:22:48Z
 timeline:
   created: 2022-03-05
   lastCommit: 2026-09-04
   lastRelease: 2026-09-04
 popularity:
-  star: 3864
-  watcher: 49
+  star: 3877
+  watcher: 50
   fork: 409
   release: 15
   contributor: 1
   pullRequest: 35
-  issue: 207
+  issue: 208
 language:
   C++: 7007556
   C: 1612544
@@ -31,7 +31,7 @@ recent:
     mergedPR: 0
     openPR: 2
     closedIssue: 1
-    openIssue: 3
+    openIssue: 4
     commit: 1
   last60d:
     since: 2026-07-09
@@ -39,7 +39,7 @@ recent:
     mergedPR: 0
     openPR: 6
     closedIssue: 1
-    openIssue: 8
+    openIssue: 9
     commit: 1
   last90d:
     since: 2026-06-09
@@ -47,7 +47,7 @@ recent:
     mergedPR: 0
     openPR: 7
     closedIssue: 3
-    openIssue: 15
+    openIssue: 16
     commit: 2
   last180d:
     since: 2026-03-11
@@ -55,7 +55,7 @@ recent:
     mergedPR: 0
     openPR: 11
     closedIssue: 6
-    openIssue: 33
+    openIssue: 34
     commit: 3
   last360d:
     since: 2025-09-12
@@ -63,7 +63,7 @@ recent:
     mergedPR: 0
     openPR: 14
     closedIssue: 10
-    openIssue: 64
+    openIssue: 65
     commit: 4
   last720d:
     since: 2024-09-17
@@ -71,18 +71,18 @@ recent:
     mergedPR: 0
     openPR: 24
     closedIssue: 29
-    openIssue: 130
+    openIssue: 131
     commit: 7
 total:
   release: 15
   mergedPR: 0
   openPR: 27
-  closedIssue: 45
-  openIssue: 162
+  closedIssue: 44
+  openIssue: 164
   commit: 16
 ---
 path: /home/runner/.x-repo/github.com/ip7z/7zip
-collectedAt: 2026-09-07T06:04:44Z
+collectedAt: 2026-09-07T18:22:49Z
 loc:
   Cpp:
     code: 184245
@@ -138,7 +138,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T06:04:45+00:00
+  collectedAt: 2026-09-07T18:22:50+00:00
   platform:
     darwin/arm64:
       name:  null
