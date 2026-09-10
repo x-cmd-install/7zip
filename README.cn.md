@@ -1,51 +1,51 @@
 # 7zip
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 7-Zip
 
-![7zip](https://repo.x-cmd.io/7zip.svg)
+![7zip](https://repo.x-cmd.io/7zip.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install 7zip
 ```
 
-## Code insight
+## 代码规模
 
-Total: **265,501** lines of code across **1098** files in the top 5 languages.
+合计: **265,501** 行代码（覆盖前 5 种语言、共 **1098** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Cpp | 184,245 | 28,075 | 31,935 | 438 |
 | C | 37,018 | 5,504 | 7,092 | 73 |
 | CHeader | 34,079 | 7,128 | 10,095 | 488 |
 | Makefile | 5,150 | 146 | 761 | 89 |
 | Assembly | 3,722 | 447 | 1,072 | 10 |
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/ip7z/7zip>
-- **License**: NOASSERTION
+- **上游仓库**: <https://github.com/ip7z/7zip>
+- **许可证**: NOASSERTION
 
-## Release
+## 发布
 
-- **Latest**: `26.03` (2026-09-04)
-- **Last commit**: 2026-09-04
-- **Assets in release**: 16
+- **最新版本**: `26.03` (2026-09-04)
+- **最近提交**: 2026-09-04
+- **Release 含资产**: 16 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 3,894 · **Forks**: 411 · **Open issues**: 209 · **Contributors**: 1
+- **Star**: 3,894 · **Fork**: 411 · **开放 issue**: 209 · **贡献者**: 1
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 15 · **Merged PRs**: 0 · **Open PRs**: 27 · **Closed issues**: 44 · **Open issues**: 165 · **Commits**: 16
+- **发布数**: 15 · **已合并 PR**: 0 · **开放 PR**: 27 · **已关闭 issue**: 44 · **开放 issue**: 165 · **提交数**: 16
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 1 | 0 | 2 | 1 | 4 | 1 |
 | last60d | 2026-07-12 | 1 | 0 | 6 | 1 | 10 | 1 |
@@ -54,10 +54,10 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 | 360d | 2025-09-15 | 4 | 0 | 14 | 10 | 66 | 4 |
 | last720d | 2024-09-20 | 7 | 0 | 24 | 29 | 132 | 7 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [7z2603-arm.exe](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-arm.exe) | 1.6 MiB | `other` |
 | [7z2603-arm64.exe](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-arm64.exe) | 1.5 MiB | `other` |
 | [7z2603-extra.7z](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-extra.7z) | 1.7 MiB | `other` |
@@ -75,12 +75,12 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 | [7zr.exe](https://github.com/ip7z/7zip/releases/download/26.03/7zr.exe) | 588.5 KiB | `other` |
 | [lzma2603.7z](https://github.com/ip7z/7zip/releases/download/26.03/lzma2603.7z) | 1.7 MiB | `other` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **232** distros on [repology.org](https://repology.org/project/7zip). **41** are ✅ on the latest upstream release, **112** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/7zip) 上共有 **232** 个发行版报告此项目。**41** 个 ✅ 已是最新上游版本，**112** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Debian unstable | `26.03` | ✅ latest |
 | Debian 14 | `26.03` | ✅ latest |
 | Debian 13 | `25.01` | ⚠️ outdated |
@@ -94,13 +94,13 @@ Reported by **232** distros on [repology.org](https://repology.org/project/7zip)
 | Alpine edge | `26.02` | ⚠️ outdated |
 | openSUSE Tumbleweed | `26.02` | ⚠️ outdated |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `7zip` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+7zip 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `7zip` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/7zip.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/7zip.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:07:01Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:07:02Z._
