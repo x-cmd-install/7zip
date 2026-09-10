@@ -7,7 +7,7 @@ about:
   latestVersion: "26.03"
   latestRelease: "26.03"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:06:55Z
+  collectedAt: 2026-09-10T22:43:25Z
 timeline:
   created: 2022-03-05
   lastCommit: 2026-09-04
@@ -86,7 +86,7 @@ total:
   commit: 16
 ---
 path: /home/runner/.x-repo/github.com/ip7z/7zip
-collectedAt: 2026-09-10T21:06:56Z
+collectedAt: 2026-09-10T22:43:26Z
 loc:
   Cpp:
     code: 184245
@@ -141,5 +141,5 @@ total:
 ---
 
 ---
-  - 7zz
   - 7zzs
+  - 7zz
