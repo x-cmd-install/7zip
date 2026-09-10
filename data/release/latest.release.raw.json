@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1666254,
       "digest": "sha256:74144f45945359fce65c67228a7975eaa55c897cc7255942746654f4ab66cad6",
-      "download_count": 632,
+      "download_count": 721,
       "created_at": "2026-09-04T07:32:17Z",
       "updated_at": "2026-09-04T07:32:17Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-arm.exe"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1593122,
       "digest": "sha256:e22ce71c11dcf503c448fe51e56f41830eb4e1344fa5c7731ae63bce533a8e8e",
-      "download_count": 38336,
+      "download_count": 45822,
       "created_at": "2026-09-04T07:32:17Z",
       "updated_at": "2026-09-04T07:32:18Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-arm64.exe"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1764178,
       "digest": "sha256:191894e6acb3647ffb69ce630479ff318523b2e2b9890aa7f05c1127c2e59b8f",
-      "download_count": 12695,
+      "download_count": 14771,
       "created_at": "2026-09-04T07:32:18Z",
       "updated_at": "2026-09-04T07:32:18Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-extra.7z"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1216944,
       "digest": "sha256:4efd099f6112b39054faea9424ded044b7bcaaf494dba49b918daa781297f57f",
-      "download_count": 3379,
+      "download_count": 4132,
       "created_at": "2026-09-04T07:32:18Z",
       "updated_at": "2026-09-04T07:32:19Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-arm.tar.xz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1328620,
       "digest": "sha256:2389ba20e4d8295e8709c20b6263b69bd1ec4972fe38a04ad7a1badbf595b996",
-      "download_count": 4092,
+      "download_count": 4934,
       "created_at": "2026-09-04T07:32:19Z",
       "updated_at": "2026-09-04T07:32:19Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-arm64.tar.xz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1575072,
       "digest": "sha256:dc99eff5008f1ab79bd7084c68513701547a808a89502bf4133683535ab3c695",
-      "download_count": 10515,
+      "download_count": 12832,
       "created_at": "2026-09-04T07:32:20Z",
       "updated_at": "2026-09-04T07:32:20Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-x64.tar.xz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1710256,
       "digest": "sha256:1ac4d68723f457ce000a069f5453051aa5381765ce5c77b1d5a02ea8cfba9af7",
-      "download_count": 3509,
+      "download_count": 4106,
       "created_at": "2026-09-04T07:32:20Z",
       "updated_at": "2026-09-04T07:32:21Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-x86.tar.xz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1863192,
       "digest": "sha256:5ca87677072c59f5602e5c49baa27d4694bacd2259b4e507f0094249d4281480",
-      "download_count": 10426,
+      "download_count": 12431,
       "created_at": "2026-09-04T07:32:21Z",
       "updated_at": "2026-09-04T07:32:21Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-mac.tar.xz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1539219,
       "digest": "sha256:41e2a7c0e9f838351c625e01f0f581a2188bb3dda10c8e0b4a852da26546ffe2",
-      "download_count": 3824,
+      "download_count": 4468,
       "created_at": "2026-09-04T07:32:21Z",
       "updated_at": "2026-09-04T07:32:22Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-src.7z"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 1552200,
       "digest": "sha256:9cbde5099c6deb73691b0579063da5827522ccbbcba3f0020fd04e8c8c16c0d4",
-      "download_count": 5229,
+      "download_count": 6061,
       "created_at": "2026-09-04T07:32:22Z",
       "updated_at": "2026-09-04T07:32:22Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-src.tar.xz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 1661239,
       "digest": "sha256:0859c524b8a63551848f0c246abddcb1d0b7b656b0fbfe879f8d85e61a9e6edd",
-      "download_count": 926975,
+      "download_count": 1115298,
       "created_at": "2026-09-04T07:32:22Z",
       "updated_at": "2026-09-04T07:32:23Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-x64.exe"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 2007040,
       "digest": "sha256:c0680064d698a62dd4a5a47f403db356a6531a5473e4c4b1d090ea2590513926",
-      "download_count": 436624,
+      "download_count": 541423,
       "created_at": "2026-09-04T07:32:23Z",
       "updated_at": "2026-09-04T07:32:24Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603-x64.msi"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 1360507,
       "digest": "sha256:0f6ec2eda1f8c5dc4c267ee761c0dad8a9d5e8863e0c84b7ac026bc9625a1560",
-      "download_count": 108792,
+      "download_count": 129833,
       "created_at": "2026-09-04T07:32:14Z",
       "updated_at": "2026-09-04T07:32:16Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603.exe"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 1572864,
       "digest": "sha256:23b5a8843b09db629b6f6a63364bae5430f66d6ecd4b38e11e1661bfaff5d2c6",
-      "download_count": 52374,
+      "download_count": 61019,
       "created_at": "2026-09-04T07:32:16Z",
       "updated_at": "2026-09-04T07:32:17Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7z2603.msi"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 602624,
       "digest": "sha256:ad4c82fadcbdf93c03b4fc440f300509c7d60c5c2f4d183e35d9d70d6957037d",
-      "download_count": 11644,
+      "download_count": 19142,
       "created_at": "2026-09-04T07:32:24Z",
       "updated_at": "2026-09-04T07:32:24Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/7zr.exe"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 1785639,
       "digest": "sha256:86c213f752520ab5325c310f50bef63ec344b56dd1c80b0246d06dc6cec953b2",
-      "download_count": 3738,
+      "download_count": 4307,
       "created_at": "2026-09-04T07:32:24Z",
       "updated_at": "2026-09-04T07:32:25Z",
       "browser_download_url": "https://github.com/ip7z/7zip/releases/download/26.03/lzma2603.7z"
@@ -618,8 +618,8 @@
   "body": "### 7-Zip 26.03\r\n- Improved support for Joliet ISO images and Compound archives.\r\n- Some bugs and vulnerabilities were fixed.\r\n- CVE-2026-58052 : 7-Zip failed to preserve the Mark-of-the-Web when extracting a crafted archive.\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/ip7z/7zip/releases/382549777/reactions",
-    "total_count": 83,
-    "+1": 40,
+    "total_count": 84,
+    "+1": 41,
     "-1": 0,
     "laugh": 3,
     "hooray": 7,
