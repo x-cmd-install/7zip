@@ -37,7 +37,7 @@ x install 7zip
 
 ## 流行度
 
-- **Star**: 3,895 · **Fork**: 412 · **开放 issue**: 209 · **贡献者**: 1
+- **Star**: 3,898 · **Fork**: 414 · **开放 issue**: 209 · **贡献者**: 1
 
 ## 累计统计
 
@@ -77,7 +77,7 @@ x install 7zip
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/7zip) 上共有 **232** 个发行版报告此项目。**41** 个 ✅ 已是最新上游版本，**112** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/7zip) 上共有 **234** 个发行版报告此项目。**44** 个 ✅ 已是最新上游版本，**111** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -87,7 +87,7 @@ x install 7zip
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.03` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `26.03` | ✅ latest |
 | Fedora rawhide | `26.02` | ⚠️ outdated |
 | Nix unstable | `26.02` | ⚠️ outdated |
 | Void | `26.02` | ⚠️ outdated |
@@ -103,4 +103,4 @@ x install 7zip
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T06:08:01Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T18:42:04Z._

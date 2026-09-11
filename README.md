@@ -37,7 +37,7 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,895 · **Forks**: 412 · **Open issues**: 209 · **Contributors**: 1
+- **Stars**: 3,898 · **Forks**: 414 · **Open issues**: 209 · **Contributors**: 1
 
 ## Totals (cumulative)
 
@@ -77,7 +77,7 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **232** distros on [repology.org](https://repology.org/project/7zip). **41** are ✅ on the latest upstream release, **112** are ⚠️ on an older version.
+Reported by **234** distros on [repology.org](https://repology.org/project/7zip). **44** are ✅ on the latest upstream release, **111** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,7 +87,7 @@ Reported by **232** distros on [repology.org](https://repology.org/project/7zip)
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.03` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `26.03` | ✅ latest |
 | Fedora rawhide | `26.02` | ⚠️ outdated |
 | Nix unstable | `26.02` | ⚠️ outdated |
 | Void | `26.02` | ⚠️ outdated |
@@ -103,4 +103,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:08:01Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:42:04Z._
