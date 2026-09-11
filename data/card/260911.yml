@@ -7,7 +7,7 @@ about:
   latestVersion: "26.03"
   latestRelease: "26.03"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:07:49Z
+  collectedAt: 2026-09-11T18:41:49Z
 timeline:
   created: 2022-03-05
   lastCommit: 2026-09-04
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-09-04
   lastPrerelease: 
 popularity:
-  star: 3895
-  watcher: 49
-  fork: 412
+  star: 3898
+  watcher: 50
+  fork: 414
   release: 15
   contributor: 1
   pullRequest: 36
@@ -86,7 +86,7 @@ total:
   commit: 16
 ---
 path: /home/runner/.x-repo/github.com/ip7z/7zip
-collectedAt: 2026-09-11T06:07:51Z
+collectedAt: 2026-09-11T18:41:51Z
 loc:
   Cpp:
     code: 184245
