@@ -47,12 +47,12 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 0 | 3 | 1 | 4 | 1 |
-| last60d | 2026-07-13 | 1 | 0 | 7 | 1 | 9 | 1 |
-| 90d | 2026-06-13 | 2 | 0 | 8 | 3 | 17 | 2 |
-| last180d | 2026-03-15 | 3 | 0 | 12 | 6 | 34 | 3 |
-| 360d | 2025-09-16 | 4 | 0 | 15 | 10 | 66 | 4 |
-| last720d | 2024-09-21 | 7 | 0 | 25 | 29 | 131 | 7 |
+| 30d | 2026-08-13 | 1 | 0 | 3 | 1 | 4 | 1 |
+| last60d | 2026-07-14 | 1 | 0 | 7 | 1 | 9 | 1 |
+| 90d | 2026-06-14 | 2 | 0 | 8 | 3 | 17 | 2 |
+| last180d | 2026-03-16 | 3 | 0 | 12 | 6 | 34 | 3 |
+| 360d | 2025-09-17 | 4 | 0 | 15 | 10 | 66 | 4 |
+| last720d | 2024-09-22 | 7 | 0 | 25 | 29 | 130 | 7 |
 
 ## Release assets
 
@@ -77,13 +77,13 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **234** distros on [repology.org](https://repology.org/project/7zip). **44** are ✅ on the latest upstream release, **111** are ⚠️ on an older version.
+Reported by **232** distros on [repology.org](https://repology.org/project/7zip). **42** are ✅ on the latest upstream release, **111** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `26.03` | ✅ latest |
 | Debian 14 | `26.03` | ✅ latest |
-| Debian 13 | `25.01` | ⚠️ outdated |
+| Debian 13 | `25.00` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.03` | ✅ latest |
@@ -103,4 +103,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T18:42:04Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T06:05:09Z._
