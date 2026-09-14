@@ -37,7 +37,7 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,906 · **Forks**: 414 · **Open issues**: 209 · **Contributors**: 1
+- **Stars**: 3,915 · **Forks**: 415 · **Open issues**: 209 · **Contributors**: 1
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 0 | 3 | 1 | 4 | 1 |
-| last60d | 2026-07-15 | 1 | 0 | 7 | 1 | 9 | 1 |
-| 90d | 2026-06-15 | 2 | 0 | 8 | 3 | 16 | 2 |
-| last180d | 2026-03-17 | 3 | 0 | 12 | 6 | 34 | 3 |
-| 360d | 2025-09-18 | 4 | 0 | 15 | 10 | 66 | 4 |
-| last720d | 2024-09-23 | 7 | 0 | 25 | 29 | 130 | 7 |
+| 30d | 2026-08-15 | 1 | 0 | 3 | 1 | 4 | 1 |
+| last60d | 2026-07-16 | 1 | 0 | 6 | 1 | 9 | 1 |
+| 90d | 2026-06-16 | 2 | 0 | 8 | 3 | 16 | 2 |
+| last180d | 2026-03-18 | 3 | 0 | 12 | 6 | 34 | 3 |
+| 360d | 2025-09-19 | 4 | 0 | 15 | 10 | 66 | 4 |
+| last720d | 2024-09-24 | 7 | 0 | 25 | 29 | 130 | 7 |
 
 ## Release assets
 
@@ -75,25 +75,6 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 | [7zr.exe](https://github.com/ip7z/7zip/releases/download/26.03/7zr.exe) | 588.5 KiB | `other` |
 | [lzma2603.7z](https://github.com/ip7z/7zip/releases/download/26.03/lzma2603.7z) | 1.7 MiB | `other` |
 
-## Distribution status
-
-Reported by **232** distros on [repology.org](https://repology.org/project/7zip). **42** are ✅ on the latest upstream release, **111** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `26.03` | ✅ latest |
-| Debian 14 | `26.03` | ✅ latest |
-| Debian 13 | `25.00` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
-| Arch | `26.03` | ✅ latest |
-| Homebrew | `26.03` | ✅ latest |
-| Fedora rawhide | `26.02` | ⚠️ outdated |
-| Nix unstable | `26.02` | ⚠️ outdated |
-| Void | `26.02` | ⚠️ outdated |
-| Alpine edge | `26.02` | ⚠️ outdated |
-| openSUSE Tumbleweed | `26.02` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `7zip` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -103,4 +84,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:18:51Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:43:03Z._
