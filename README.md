@@ -37,7 +37,7 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,050 · **Forks**: 430 · **Open issues**: 211 · **Contributors**: 1
+- **Stars**: 4,053 · **Forks**: 429 · **Open issues**: 211 · **Contributors**: 1
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 1 | 0 | 1 | 1 | 5 | 1 |
-| last60d | 2026-08-04 | 1 | 0 | 4 | 1 | 7 | 1 |
-| 90d | 2026-07-05 | 1 | 0 | 7 | 1 | 13 | 1 |
-| last180d | 2026-04-06 | 3 | 0 | 11 | 6 | 33 | 3 |
-| 360d | 2025-10-08 | 4 | 0 | 15 | 10 | 67 | 4 |
-| last720d | 2024-10-13 | 7 | 0 | 25 | 28 | 131 | 7 |
+| 30d | 2026-09-04 | 1 | 0 | 1 | 0 | 4 | 0 |
+| last60d | 2026-08-05 | 1 | 0 | 4 | 1 | 7 | 1 |
+| 90d | 2026-07-06 | 1 | 0 | 7 | 1 | 12 | 1 |
+| last180d | 2026-04-07 | 3 | 0 | 11 | 6 | 32 | 3 |
+| 360d | 2025-10-09 | 4 | 0 | 15 | 10 | 67 | 4 |
+| last720d | 2024-10-14 | 7 | 0 | 25 | 28 | 131 | 7 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:38:53Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:57:21Z._
