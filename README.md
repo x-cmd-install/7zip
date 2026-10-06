@@ -14,13 +14,13 @@ x install 7zip
 
 ## Code insight
 
-Total: **265,501** lines of code across **1098** files in the top 5 languages.
+Total: **266,060** lines of code across **1098** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 184,245 | 28,075 | 31,935 | 438 |
-| C | 37,018 | 5,504 | 7,092 | 73 |
-| CHeader | 34,079 | 7,128 | 10,095 | 488 |
+| Cpp | 184,736 | 28,321 | 31,750 | 438 |
+| C | 37,022 | 5,505 | 7,092 | 73 |
+| CHeader | 34,143 | 7,157 | 10,104 | 488 |
 | Makefile | 5,150 | 146 | 761 | 89 |
 | Assembly | 3,722 | 447 | 1,072 | 10 |
 
@@ -32,27 +32,27 @@ Total: **265,501** lines of code across **1098** files in the top 5 languages.
 ## Release
 
 - **Latest**: `26.03` (2026-09-04)
-- **Last commit**: 2026-09-04
+- **Last commit**: 2026-10-06
 - **Assets in release**: 16
 
 ## Popularity
 
-- **Stars**: 4,058 · **Forks**: 430 · **Open issues**: 211 · **Contributors**: 1
+- **Stars**: 4,063 · **Forks**: 431 · **Open issues**: 211 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 15 · **Merged PRs**: 0 · **Open PRs**: 28 · **Closed issues**: 44 · **Open issues**: 167 · **Commits**: 16
+- **Releases**: 15 · **Merged PRs**: 0 · **Open PRs**: 28 · **Closed issues**: 44 · **Open issues**: 167 · **Commits**: 17
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 1 | 0 | 4 | 0 |
-| last60d | 2026-08-06 | 1 | 0 | 4 | 1 | 7 | 1 |
-| 90d | 2026-07-07 | 1 | 0 | 7 | 1 | 12 | 1 |
-| last180d | 2026-04-08 | 3 | 0 | 11 | 6 | 32 | 3 |
-| 360d | 2025-10-10 | 4 | 0 | 15 | 10 | 67 | 4 |
-| last720d | 2024-10-15 | 7 | 0 | 25 | 28 | 131 | 7 |
+| 30d | 2026-09-06 | 0 | 0 | 1 | 0 | 4 | 1 |
+| last60d | 2026-08-07 | 1 | 0 | 4 | 1 | 7 | 2 |
+| 90d | 2026-07-08 | 1 | 0 | 7 | 1 | 12 | 2 |
+| last180d | 2026-04-09 | 3 | 0 | 11 | 6 | 32 | 4 |
+| 360d | 2025-10-11 | 4 | 0 | 15 | 10 | 67 | 5 |
+| last720d | 2024-10-16 | 7 | 0 | 25 | 28 | 131 | 8 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:52:29Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:54:57Z._
