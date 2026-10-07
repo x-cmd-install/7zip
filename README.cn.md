@@ -31,49 +31,49 @@ x install 7zip
 
 ## 发布
 
-- **最新版本**: `26.03` (2026-09-04)
+- **最新版本**: `26.04` (2026-10-06)
 - **最近提交**: 2026-10-06
 - **Release 含资产**: 16 个
 
 ## 流行度
 
-- **Star**: 4,063 · **Fork**: 431 · **开放 issue**: 211 · **贡献者**: 1
+- **Star**: 4,083 · **Fork**: 434 · **开放 issue**: 213 · **贡献者**: 1
 
 ## 累计统计
 
-- **发布数**: 15 · **已合并 PR**: 0 · **开放 PR**: 28 · **已关闭 issue**: 44 · **开放 issue**: 167 · **提交数**: 17
+- **发布数**: 16 · **已合并 PR**: 0 · **开放 PR**: 28 · **已关闭 issue**: 45 · **开放 issue**: 168 · **提交数**: 17
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 0 | 1 | 0 | 4 | 1 |
-| last60d | 2026-08-07 | 1 | 0 | 4 | 1 | 7 | 2 |
-| 90d | 2026-07-08 | 1 | 0 | 7 | 1 | 12 | 2 |
-| last180d | 2026-04-09 | 3 | 0 | 11 | 6 | 32 | 4 |
-| 360d | 2025-10-11 | 4 | 0 | 15 | 10 | 67 | 5 |
-| last720d | 2024-10-16 | 7 | 0 | 25 | 28 | 131 | 8 |
+| 30d | 2026-09-07 | 1 | 0 | 1 | 1 | 4 | 1 |
+| last60d | 2026-08-08 | 2 | 0 | 3 | 2 | 8 | 2 |
+| 90d | 2026-07-09 | 2 | 0 | 7 | 2 | 13 | 2 |
+| last180d | 2026-04-10 | 4 | 0 | 11 | 7 | 33 | 4 |
+| 360d | 2025-10-12 | 5 | 0 | 15 | 11 | 68 | 5 |
+| last720d | 2024-10-17 | 8 | 0 | 25 | 29 | 132 | 8 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [7z2603-arm.exe](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-arm.exe) | 1.6 MiB | `other` |
-| [7z2603-arm64.exe](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-arm64.exe) | 1.5 MiB | `other` |
-| [7z2603-extra.7z](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-extra.7z) | 1.7 MiB | `other` |
-| [7z2603-linux-arm.tar.xz](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-arm.tar.xz) | 1.2 MiB | `native/linux/arm` |
-| [7z2603-linux-arm64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-arm64.tar.xz) | 1.3 MiB | `native/linux/arm64` |
-| [7z2603-linux-x64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-x64.tar.xz) | 1.5 MiB | `other` |
-| [7z2603-linux-x86.tar.xz](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-linux-x86.tar.xz) | 1.6 MiB | `other` |
-| [7z2603-mac.tar.xz](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-mac.tar.xz) | 1.8 MiB | `other` |
-| [7z2603-src.7z](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-src.7z) | 1.5 MiB | `other` |
-| [7z2603-src.tar.xz](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-src.tar.xz) | 1.5 MiB | `other` |
-| [7z2603-x64.exe](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-x64.exe) | 1.6 MiB | `other` |
-| [7z2603-x64.msi](https://github.com/ip7z/7zip/releases/download/26.03/7z2603-x64.msi) | 1.9 MiB | `other` |
-| [7z2603.exe](https://github.com/ip7z/7zip/releases/download/26.03/7z2603.exe) | 1.3 MiB | `other` |
-| [7z2603.msi](https://github.com/ip7z/7zip/releases/download/26.03/7z2603.msi) | 1.5 MiB | `other` |
-| [7zr.exe](https://github.com/ip7z/7zip/releases/download/26.03/7zr.exe) | 588.5 KiB | `other` |
-| [lzma2603.7z](https://github.com/ip7z/7zip/releases/download/26.03/lzma2603.7z) | 1.7 MiB | `other` |
+| [7z2604-arm.exe](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-arm.exe) | 1.6 MiB | `other` |
+| [7z2604-arm64.exe](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-arm64.exe) | 1.5 MiB | `other` |
+| [7z2604-extra.7z](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-extra.7z) | 1.7 MiB | `other` |
+| [7z2604-linux-arm.tar.xz](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-linux-arm.tar.xz) | 1.2 MiB | `native/linux/arm` |
+| [7z2604-linux-arm64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-linux-arm64.tar.xz) | 1.3 MiB | `native/linux/arm64` |
+| [7z2604-linux-x64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-linux-x64.tar.xz) | 1.5 MiB | `other` |
+| [7z2604-linux-x86.tar.xz](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-linux-x86.tar.xz) | 1.6 MiB | `other` |
+| [7z2604-mac.tar.xz](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-mac.tar.xz) | 1.8 MiB | `other` |
+| [7z2604-src.7z](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-src.7z) | 1.5 MiB | `other` |
+| [7z2604-src.tar.xz](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-src.tar.xz) | 1.5 MiB | `other` |
+| [7z2604-x64.exe](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-x64.exe) | 1.6 MiB | `other` |
+| [7z2604-x64.msi](https://github.com/ip7z/7zip/releases/download/26.04/7z2604-x64.msi) | 1.9 MiB | `other` |
+| [7z2604.exe](https://github.com/ip7z/7zip/releases/download/26.04/7z2604.exe) | 1.3 MiB | `other` |
+| [7z2604.msi](https://github.com/ip7z/7zip/releases/download/26.04/7z2604.msi) | 1.5 MiB | `other` |
+| [7zr.exe](https://github.com/ip7z/7zip/releases/download/26.04/7zr.exe) | 588.5 KiB | `other` |
+| [lzma2604.7z](https://github.com/ip7z/7zip/releases/download/26.04/lzma2604.7z) | 1.7 MiB | `other` |
 
 ## 改进这些数据
 
@@ -84,4 +84,4 @@ x install 7zip
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261006.yml` · 2026-10-06T07:54:57Z._
+_数据快照: `data/card/261007.yml` · 2026-10-07T07:09:06Z._
