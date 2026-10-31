@@ -37,22 +37,22 @@ Total: **266,486** lines of code across **1098** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,331 · **Forks**: 481 · **Open issues**: 220 · **Contributors**: 1
+- **Stars**: 4,342 · **Forks**: 481 · **Open issues**: 221 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 0 · **Open PRs**: 30 · **Closed issues**: 45 · **Open issues**: 175 · **Commits**: 18
+- **Releases**: 17 · **Merged PRs**: 0 · **Open PRs**: 30 · **Closed issues**: 45 · **Open issues**: 176 · **Commits**: 18
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 2 | 0 | 3 | 1 | 8 | 2 |
-| last60d | 2026-08-31 | 3 | 0 | 5 | 2 | 14 | 3 |
-| 90d | 2026-08-01 | 3 | 0 | 7 | 2 | 15 | 3 |
-| last180d | 2026-05-03 | 4 | 0 | 12 | 6 | 33 | 4 |
-| 360d | 2025-11-04 | 6 | 0 | 18 | 11 | 68 | 6 |
-| last720d | 2024-11-09 | 9 | 0 | 27 | 29 | 136 | 9 |
+| 30d | 2026-10-01 | 2 | 0 | 3 | 1 | 9 | 2 |
+| last60d | 2026-09-01 | 3 | 0 | 5 | 2 | 15 | 3 |
+| 90d | 2026-08-02 | 3 | 0 | 7 | 2 | 16 | 3 |
+| last180d | 2026-05-04 | 4 | 0 | 12 | 6 | 34 | 4 |
+| 360d | 2025-11-05 | 6 | 0 | 18 | 11 | 69 | 6 |
+| last720d | 2024-11-10 | 9 | 0 | 27 | 29 | 137 | 9 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Total: **266,486** lines of code across **1098** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **241** distros on [repology.org](https://repology.org/project/7zip). **44** are ✅ on the latest upstream release, **109** are ⚠️ on an older version.
+Reported by **241** distros on [repology.org](https://repology.org/project/7zip). **45** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,7 +87,7 @@ Reported by **241** distros on [repology.org](https://repology.org/project/7zip)
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.05` | ✅ latest |
-| Homebrew | `26.05` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `26.04` | ⚠️ outdated |
 | Nix unstable | `26.04` | ⚠️ outdated |
 | Void | `26.05` | ✅ latest |
@@ -103,4 +103,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T07:04:02Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:56:38Z._
