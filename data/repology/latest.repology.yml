@@ -1,18 +1,3 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: 7zip
-  binnames:
-    - 7zip
-    - 7zip-standalone
-  visiblename: 7zip
-  version: "26.03"
-  origversion: 26.03+dfsg-3
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-    - daissi@debian.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: main
   srcname: 7zip
@@ -105,17 +90,6 @@
   summary: File archiver for extremely high compression
   licenses:
     - LGPL-2.1-or-later AND LicenseRef-UnRAR AND BSD-3-Clause AND BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "26.05"
-  origversion: 26.05-1
-  status: newest
-  summary: File archiver for extremely high compression
-  licenses:
-    - LGPL-2.1-or-later AND LicenseRef-UnRAR AND BSD-3-Clause AND BSD-2-Clause
 - repo: baulk
   srcname: 7z
   binname: 7z
@@ -173,26 +147,6 @@
   version: "26.03"
   origversion: null
   status: outdated
-- repo: homebrew
-  srcname: sevenzip
-  visiblename: sevenzip
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: 7-Zip is a file archiver with a high compression ratio
-- repo: debian_14
-  subrepo: forky/non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.05"
-  origversion: 26.05-1
-  status: newest
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
 - repo: debian_14
   subrepo: forky/main
   srcname: 7zip
@@ -208,6 +162,19 @@
     - daissi@debian.org
   categories:
     - misc
+- repo: debian_14
+  subrepo: forky/non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.05"
+  origversion: 26.05-1
+  status: newest
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
 - repo: debian_unstable
   subrepo: sid/main
   srcname: 7zip
@@ -237,6 +204,19 @@
   categories:
     - non-free/misc
 - repo: devuan_unstable
+  subrepo: unstable/non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.05"
+  origversion: 26.05-1
+  status: newest
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
+- repo: devuan_unstable
   subrepo: unstable/main
   srcname: 7zip
   binnames:
@@ -251,19 +231,6 @@
     - daissi@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.05"
-  origversion: 26.05-1
-  status: newest
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
 - repo: epel_9
   srcname: 7zip
   binnames:
@@ -304,9 +271,9 @@
   subrepo: arbor
   srcname: app-arch/7zip
   visiblename: app-arch/7zip
-  version: "26.04"
+  version: "26.05"
   origversion: null
-  status: outdated
+  status: newest
   summary: 7-Zip file archiver with a high compression ratio
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -329,19 +296,6 @@
     - LGPL-2.1-or-later AND BSD-3-Clause AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-- repo: kali_rolling
-  subrepo: non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.04"
-  origversion: 26.04-1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
 - repo: fedora_44
   subrepo: updates
   srcname: 7zip
@@ -448,6 +402,41 @@
   origversion: null
   status: newest
   summary: 7-Zip is a file archiver with a high compression ratio
+- repo: homebrew
+  srcname: sevenzip
+  visiblename: sevenzip
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: 7-Zip is a file archiver with a high compression ratio
+- repo: kali_rolling
+  subrepo: main
+  srcname: 7zip
+  binnames:
+    - 7zip
+    - 7zip-standalone
+  visiblename: 7zip
+  version: "26.03"
+  origversion: 26.03+dfsg-3
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+    - daissi@debian.org
+  categories:
+    - misc
+- repo: kali_rolling
+  subrepo: non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.04"
+  origversion: 26.04-1
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
 - repo: liguros_develop
   srcname: app-arch/7zip
   visiblename: app-arch/7zip
@@ -507,25 +496,14 @@
     - LGPL-2.1
   categories:
     - archivers
-- repo: manjaro_stable
+- repo: manjaro_unstable
   subrepo: extra
   srcname: 7zip
   binname: 7zip
   visiblename: 7zip
-  version: "26.03"
-  origversion: 26.03-1
-  status: outdated
-  summary: File archiver for extremely high compression
-  licenses:
-    - LGPL-2.1-or-later AND LicenseRef-UnRAR AND BSD-3-Clause AND BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "26.03"
-  origversion: 26.03-1
-  status: outdated
+  version: "26.05"
+  origversion: 26.05-1
+  status: newest
   summary: File archiver for extremely high compression
   licenses:
     - LGPL-2.1-or-later AND LicenseRef-UnRAR AND BSD-3-Clause AND BSD-2-Clause
@@ -1065,6 +1043,58 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
+  version: "24.8"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: mx_23_testing
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.01"
+  origversion: 26.01-2~mx23+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+  categories:
+    - non-free/utils
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "15.14"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: mx_25_testing
+  srcname: 7zip
+  binnames:
+    - 7zip
+    - 7zip-standalone
+  visiblename: 7zip
+  version: "26.01"
+  origversion: 26.01+dfsg-2~mx25+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+    - daissi@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
   version: "24.5"
   origversion: null
   status: legacy
@@ -1073,313 +1103,13 @@
   categories:
     - Tools
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.6"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.7"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "23"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "23.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "23.1"
+- repo: chocolatey
+  binname: 7zip.commandline
+  visiblename: '[Deprecated] 7-Zip (Portable, CommandLine)'
+  version: 16.02.0.20170209
   origversion: null
   status: outdated
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "23.01"
-  origversion: 23.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "22.01"
-  origversion: 22.01-r5
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "22.01"
-  origversion: 22.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "22.01"
-  origversion: 22.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "22.01"
-  origversion: 22.01-r5
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "23.01"
-  origversion: 23.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "23.01"
-  origversion: 23.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "23.01"
-  origversion: 23.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "24.08"
-  origversion: 24.08-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "24.08"
-  origversion: 24.08-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "24.09"
-  origversion: 24.09-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "24.09"
-  origversion: 24.09-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "25.01"
-  origversion: 25.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "25.01"
-  origversion: 25.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "26.01"
-  origversion: 26.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "26.01"
-  origversion: 26.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - LGPL-2.0-only
+  summary: 7-Zip is a file archiver with a high compression ratio.
   vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
@@ -1408,6 +1138,242 @@
   maintainers:
     - yokota.hgml@gmail.com
     - daissi@debian.org
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "22.01"
+  origversion: 22.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "22.01"
+  origversion: 22.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "22.01"
+  origversion: 22.01-r5
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "22.01"
+  origversion: 22.01-r5
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "23.01"
+  origversion: 23.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "23.01"
+  origversion: 23.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "23.01"
+  origversion: 23.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "23.01"
+  origversion: 23.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "24.08"
+  origversion: 24.08-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "24.08"
+  origversion: 24.08-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.7"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "24.09"
+  origversion: 24.09-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "24.09"
+  origversion: 24.09-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "25.01"
+  origversion: 25.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "25.01"
+  origversion: 25.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "26.01"
+  origversion: 26.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "26.01"
+  origversion: 26.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - LGPL-2.0-only
   vulnerable: true
 - repo: aur
   srcname: 7zip-docs
@@ -1438,14 +1404,6 @@
     - BSD-3-Clause
     - LGPL-2.1-or-later
     - LicenseRef-UnRAR
-  vulnerable: true
-- repo: chocolatey
-  binname: 7zip.commandline
-  visiblename: '[Deprecated] 7-Zip (Portable, CommandLine)'
-  version: 16.02.0.20170209
-  origversion: null
-  status: outdated
-  summary: 7-Zip is a file archiver with a high compression ratio.
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm-security/main
@@ -1492,18 +1450,6 @@
     - daissi@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
   vulnerable: true
 - repo: debian_12_backports
   subrepo: bookworm-backports/non-free
@@ -1581,17 +1527,21 @@
   categories:
     - misc
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "19"
+- repo: nix_stable_24_05
+  srcname: _7zz
+  visiblename: 7zz
+  version: "24.08"
   origversion: null
-  status: legacy
+  status: outdated
+  summary: Command line archiver utility
+  maintainers:
+    - anna328p@gmail.com
+    - contactmeongithubinstead@proton.me
+    - hello+nixpkgs@j-k.io
+    - peter@hoeg.com
   licenses:
-    - 7-zip license
-  categories:
-    - Tools
+    - LGPL-2.0-or-later
+    - BSD-3-Clause
   vulnerable: true
 - repo: fedora_43
   subrepo: release
@@ -1687,22 +1637,6 @@
   categories:
     - app-arch
   vulnerable: true
-- repo: nix_stable_24_11
-  srcname: _7zz-rar
-  visiblename: 7zz
-  version: "24.09"
-  origversion: null
-  status: outdated
-  summary: Command line archiver utility
-  maintainers:
-    - anna328p@gmail.com
-    - hello+nixpkgs@j-k.io
-    - peter@hoeg.com
-  licenses:
-    - LGPL-2.0-or-later
-    - BSD-3-Clause
-    - Unfree
-  vulnerable: true
 - repo: mageia_10
   subrepo: core/updates
   srcname: 7zip
@@ -1720,6 +1654,18 @@
     - LGPL-2.1-or-later AND BSD-3-Clause AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
   categories:
     - Archiving/Compression
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.9"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
   vulnerable: true
 - repo: mageia_10
   subrepo: core/release
@@ -1800,34 +1746,6 @@
   categories:
     - utils
   vulnerable: true
-- repo: mx_23_testing
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.01"
-  origversion: 26.01-2~mx23+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
-  categories:
-    - non-free/utils
-  vulnerable: true
-- repo: mx_25_testing
-  srcname: 7zip
-  binnames:
-    - 7zip
-    - 7zip-standalone
-  visiblename: 7zip
-  version: "26.01"
-  origversion: 26.01+dfsg-2~mx25+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
-    - daissi@debian.org
-  categories:
-    - utils
-  vulnerable: true
 - repo: mx_25_testing
   srcname: 7zip-rar
   binnames:
@@ -1840,22 +1758,6 @@
     - stevep@mxlinux.org
   categories:
     - non-free/utils
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: _7zz
-  visiblename: 7zz
-  version: "24.08"
-  origversion: null
-  status: outdated
-  summary: Command line archiver utility
-  maintainers:
-    - anna328p@gmail.com
-    - contactmeongithubinstead@proton.me
-    - hello+nixpkgs@j-k.io
-    - peter@hoeg.com
-  licenses:
-    - LGPL-2.0-or-later
-    - BSD-3-Clause
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: _7zz-rar
@@ -1889,6 +1791,22 @@
     - LGPL-2.0-or-later
     - BSD-3-Clause
   vulnerable: true
+- repo: nix_stable_24_11
+  srcname: _7zz-rar
+  visiblename: 7zz
+  version: "24.09"
+  origversion: null
+  status: outdated
+  summary: Command line archiver utility
+  maintainers:
+    - anna328p@gmail.com
+    - hello+nixpkgs@j-k.io
+    - peter@hoeg.com
+  licenses:
+    - LGPL-2.0-or-later
+    - BSD-3-Clause
+    - Unfree
+  vulnerable: true
 - repo: nix_stable_25_05
   srcname: _7zz
   visiblename: 7zz
@@ -2024,18 +1942,6 @@
     - Tools
   vulnerable: true
 - repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "15.14"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.7-zip.SevenZIPA
   binname: org.7-zip.SevenZIPA
   visiblename: 7-ZIP A
@@ -2160,6 +2066,18 @@
   binname: org.7-zip.SevenZIPA
   visiblename: 7-ZIP A
   version: "18.6"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "19"
   origversion: null
   status: legacy
   licenses:
@@ -2219,7 +2137,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "24.8"
+  version: "23"
   origversion: null
   status: legacy
   licenses:
@@ -2231,7 +2149,67 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "24.9"
+  version: "23.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "23.1"
+  origversion: null
+  status: outdated
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.6"
   origversion: null
   status: legacy
   licenses:
@@ -2741,19 +2719,6 @@
     - Archiving/Compression
   vulnerable: true
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: 7zip
-  visiblename: 7zip
-  version: "23.01"
-  origversion: 23.01-lp156.1.4
-  status: legacy
-  summary: Command-line file archiver with high compression ratio
-  licenses:
-    - BSD-3-Clause AND LGPL-2.1-or-later AND SUSE-Public-Domain
-  categories:
-    - Productivity/Archiving/Compression
-  vulnerable: true
-- repo: opensuse_leap_15_6
   subrepo: updates/oss
   srcname: 7zip
   visiblename: 7zip
@@ -2778,6 +2743,49 @@
     - BSD-3-Clause AND LGPL-2.1-or-later AND SUSE-Public-Domain
   categories:
     - Productivity/Archiving/Compression
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: 7zip
+  visiblename: 7zip
+  version: "23.01"
+  origversion: 23.01-lp156.1.4
+  status: legacy
+  summary: Command-line file archiver with high compression ratio
+  licenses:
+    - BSD-3-Clause AND LGPL-2.1-or-later AND SUSE-Public-Domain
+  categories:
+    - Productivity/Archiving/Compression
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "25.00"
+  origversion: 25.00+ds-1+deb13u1
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: 7zip
+  binnames:
+    - 7zip
+    - 7zip-standalone
+  visiblename: 7zip
+  version: "25.01"
+  origversion: 25.01+dfsg-1~deb13u2
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+    - daissi@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: parrot
   subrepo: parrot/non-free
@@ -2808,36 +2816,6 @@
     - daissi@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: 7zip
-  binnames:
-    - 7zip
-    - 7zip-standalone
-  visiblename: 7zip
-  version: "25.01"
-  origversion: 25.01+dfsg-1~deb13u2
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-    - daissi@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "25.00"
-  origversion: 25.00+ds-1+deb13u1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
   vulnerable: true
 - repo: pkgsrc_2026_2
   srcname: archivers/7-zip
