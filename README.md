@@ -37,22 +37,22 @@ Total: **266,486** lines of code across **1098** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,391 · **Forks**: 487 · **Open issues**: 223 · **Contributors**: 1
+- **Stars**: 4,398 · **Forks**: 488 · **Open issues**: 224 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 0 · **Open PRs**: 31 · **Closed issues**: 46 · **Open issues**: 177 · **Commits**: 18
+- **Releases**: 17 · **Merged PRs**: 0 · **Open PRs**: 33 · **Closed issues**: 46 · **Open issues**: 178 · **Commits**: 18
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 2 | 0 | 5 | 2 | 10 | 1 |
-| last60d | 2026-09-05 | 2 | 0 | 6 | 2 | 14 | 2 |
-| 90d | 2026-08-06 | 3 | 0 | 9 | 3 | 17 | 3 |
-| last180d | 2026-05-08 | 4 | 0 | 13 | 7 | 34 | 4 |
-| 360d | 2025-11-09 | 6 | 0 | 19 | 12 | 69 | 6 |
-| last720d | 2024-11-14 | 9 | 0 | 28 | 30 | 138 | 9 |
+| 30d | 2026-10-06 | 2 | 0 | 7 | 1 | 10 | 1 |
+| last60d | 2026-09-06 | 2 | 0 | 8 | 2 | 15 | 2 |
+| 90d | 2026-08-07 | 3 | 0 | 11 | 3 | 18 | 3 |
+| last180d | 2026-05-09 | 4 | 0 | 15 | 7 | 35 | 4 |
+| 360d | 2025-11-10 | 6 | 0 | 21 | 11 | 70 | 6 |
+| last720d | 2024-11-15 | 9 | 0 | 30 | 30 | 138 | 9 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Total: **266,486** lines of code across **1098** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **239** distros on [repology.org](https://repology.org/project/7zip). **47** are ✅ on the latest upstream release, **104** are ⚠️ on an older version.
+Reported by **240** distros on [repology.org](https://repology.org/project/7zip). **49** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:41:45Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T08:04:17Z._
