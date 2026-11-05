@@ -184,6 +184,19 @@
   categories:
     - misc
 - repo: debian_unstable
+  subrepo: sid/non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.05"
+  origversion: 26.05-1
+  status: newest
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
+- repo: debian_unstable
   subrepo: sid/main
   srcname: 7zip
   binnames:
@@ -198,19 +211,6 @@
     - daissi@debian.org
   categories:
     - misc
-- repo: debian_unstable
-  subrepo: sid/non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.05"
-  origversion: 26.05-1
-  status: newest
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
 - repo: devuan_unstable
   subrepo: unstable/non-free
   srcname: 7zip-rar
@@ -410,19 +410,6 @@
   status: rolling
   summary: 7-Zip is a file archiver with a high compression ratio
 - repo: kali_rolling
-  subrepo: non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.04"
-  origversion: 26.04-1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
-- repo: kali_rolling
   subrepo: main
   srcname: 7zip
   binnames:
@@ -437,6 +424,19 @@
     - daissi@debian.org
   categories:
     - misc
+- repo: kali_rolling
+  subrepo: non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.05"
+  origversion: 26.05-1
+  status: newest
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
 - repo: liguros_develop
   srcname: app-arch/7zip
   visiblename: app-arch/7zip
@@ -825,6 +825,19 @@
   categories:
     - archivers
 - repo: raspbian_testing
+  subrepo: non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.05"
+  origversion: 26.05-1
+  status: newest
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
+- repo: raspbian_testing
   subrepo: main
   srcname: 7zip
   binnames:
@@ -839,19 +852,6 @@
     - daissi@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.05"
-  origversion: 26.05-1
-  status: newest
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
 - repo: scoop
   subrepo: main
   binname: 7zip
@@ -943,6 +943,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: extra
+  srcname: 7zip
+  visiblename: 7zip
+  version: "26.05"
+  origversion: 26.05-1
+  status: newest
+  summary: Command-line file archiver with high compression ratio
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: 7zip
   visiblename: 7zip
@@ -1043,19 +1053,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "23"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "23.1"
+  version: "16.2"
   origversion: null
   status: legacy
   licenses:
@@ -1067,14 +1065,54 @@
   srcname: org.7-zip.SevenZIPA
   binname: org.7-zip.SevenZIPA
   visiblename: 7-ZIP A
-  version: "23.1"
+  version: "16.2"
   origversion: null
-  status: outdated
+  status: legacy
   licenses:
     - 7-zip license
   categories:
     - Tools
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "16.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "25.01"
+  origversion: 25.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: 7zip
+  binname: 7zip-doc
+  visiblename: 7zip-doc
+  version: "25.01"
+  origversion: 25.01-r0
+  status: outdated
+  summary: File archiver with a high compression ratio (documentation)
+  maintainers:
+    - alex_y_xu@yahoo.ca
+  licenses:
+    - LGPL-2.0-only
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: 7zip
@@ -1236,34 +1274,6 @@
   visiblename: 7zip-doc
   version: "24.09"
   origversion: 24.09-r0
-  status: outdated
-  summary: File archiver with a high compression ratio (documentation)
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "25.01"
-  origversion: 25.01-r0
-  status: outdated
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - alex_y_xu@yahoo.ca
-  licenses:
-    - LGPL-2.0-only
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: 7zip
-  binname: 7zip-doc
-  visiblename: 7zip-doc
-  version: "25.01"
-  origversion: 25.01-r0
   status: outdated
   summary: File archiver with a high compression ratio (documentation)
   maintainers:
@@ -1751,18 +1761,6 @@
     - LGPL-2.0-or-later
     - BSD-3-Clause
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
 - repo: nix_stable_24_05
   srcname: _7zz-rar
   visiblename: 7zz
@@ -1954,42 +1952,6 @@
     - Tools
   vulnerable: true
 - repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "16.2"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "16.2"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "16.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.7-zip.SevenZIPA
   binname: org.7-zip.SevenZIPA
   visiblename: 7-ZIP A
@@ -2126,6 +2088,54 @@
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
   version: "22.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "23"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "23.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "23.1"
+  origversion: null
+  status: outdated
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.1"
   origversion: null
   status: legacy
   licenses:
@@ -2862,20 +2872,6 @@
     - misc
   vulnerable: true
 - repo: raspbian_stable
-  subrepo: non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "25.00"
-  origversion: 25.00+ds-1+deb13u1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
-  vulnerable: true
-- repo: raspbian_stable
   subrepo: main
   srcname: 7zip
   binnames:
@@ -2890,6 +2886,20 @@
     - daissi@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "25.00"
+  origversion: 25.00+ds-1+deb13u1
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
   vulnerable: true
 - repo: reactos
   srcname: 7zip
