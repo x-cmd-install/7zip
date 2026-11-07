@@ -32,27 +32,27 @@ Total: **266,486** lines of code across **1098** files in the top 5 languages.
 ## Release
 
 - **Latest**: `26.05` (2026-10-21)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-11-06
 - **Assets in release**: 16
 
 ## Popularity
 
-- **Stars**: 4,405 · **Forks**: 489 · **Open issues**: 224 · **Contributors**: 1
+- **Stars**: 4,417 · **Forks**: 491 · **Open issues**: 224 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 0 · **Open PRs**: 33 · **Closed issues**: 46 · **Open issues**: 178 · **Commits**: 18
+- **Releases**: 17 · **Merged PRs**: 0 · **Open PRs**: 33 · **Closed issues**: 46 · **Open issues**: 178 · **Commits**: 21
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 0 | 7 | 1 | 10 | 1 |
-| last60d | 2026-09-07 | 2 | 0 | 8 | 2 | 14 | 2 |
-| 90d | 2026-08-08 | 3 | 0 | 10 | 3 | 18 | 3 |
-| last180d | 2026-05-10 | 4 | 0 | 15 | 7 | 35 | 4 |
-| 360d | 2025-11-11 | 6 | 0 | 21 | 11 | 70 | 6 |
-| last720d | 2024-11-16 | 9 | 0 | 30 | 30 | 138 | 9 |
+| 30d | 2026-10-08 | 1 | 0 | 7 | 1 | 10 | 4 |
+| last60d | 2026-09-08 | 2 | 0 | 8 | 2 | 13 | 5 |
+| 90d | 2026-08-09 | 3 | 0 | 10 | 3 | 17 | 6 |
+| last180d | 2026-05-11 | 4 | 0 | 14 | 7 | 35 | 7 |
+| 360d | 2025-11-12 | 6 | 0 | 21 | 11 | 70 | 9 |
+| last720d | 2024-11-17 | 9 | 0 | 30 | 30 | 138 | 12 |
 
 ## Release assets
 
@@ -77,13 +77,13 @@ Total: **266,486** lines of code across **1098** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **240** distros on [repology.org](https://repology.org/project/7zip). **49** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
+Reported by **244** distros on [repology.org](https://repology.org/project/7zip). **52** are ✅ on the latest upstream release, **104** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `26.05` | ✅ latest |
 | Debian 14 | `26.05` | ✅ latest |
-| Debian 13 | `25.00` | ⚠️ outdated |
+| Debian 13 | `25.01` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.05` | ✅ latest |
@@ -103,4 +103,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T08:13:23Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:15:53Z._
