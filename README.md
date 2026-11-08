@@ -14,13 +14,13 @@ x install 7zip
 
 ## Code insight
 
-Total: **266,486** lines of code across **1098** files in the top 5 languages.
+Total: **266,788** lines of code across **1098** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 185,143 | 28,426 | 31,738 | 438 |
+| Cpp | 185,331 | 28,425 | 31,612 | 438 |
 | C | 37,022 | 5,505 | 7,092 | 73 |
-| CHeader | 34,141 | 7,168 | 10,100 | 488 |
+| CHeader | 34,255 | 7,177 | 10,108 | 488 |
 | Makefile | 5,171 | 145 | 759 | 89 |
 | Assembly | 3,722 | 447 | 1,072 | 10 |
 
@@ -31,67 +31,68 @@ Total: **266,486** lines of code across **1098** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `26.05` (2026-10-21)
-- **Last commit**: 2026-11-06
-- **Assets in release**: 16
+- **Latest**: `26.06` (2026-11-07)
+- **Last commit**: 2026-11-07
+- **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 4,417 · **Forks**: 491 · **Open issues**: 224 · **Contributors**: 1
+- **Stars**: 4,431 · **Forks**: 493 · **Open issues**: 224 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 0 · **Open PRs**: 33 · **Closed issues**: 46 · **Open issues**: 178 · **Commits**: 21
+- **Releases**: 18 · **Merged PRs**: 0 · **Open PRs**: 34 · **Closed issues**: 47 · **Open issues**: 177 · **Commits**: 22
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 0 | 7 | 1 | 10 | 4 |
-| last60d | 2026-09-08 | 2 | 0 | 8 | 2 | 13 | 5 |
-| 90d | 2026-08-09 | 3 | 0 | 10 | 3 | 17 | 6 |
-| last180d | 2026-05-11 | 4 | 0 | 14 | 7 | 35 | 7 |
-| 360d | 2025-11-12 | 6 | 0 | 21 | 11 | 70 | 9 |
-| last720d | 2024-11-17 | 9 | 0 | 30 | 30 | 138 | 12 |
+| 30d | 2026-10-09 | 2 | 0 | 8 | 2 | 8 | 5 |
+| last60d | 2026-09-09 | 3 | 0 | 9 | 3 | 12 | 6 |
+| 90d | 2026-08-10 | 4 | 0 | 11 | 4 | 16 | 7 |
+| last180d | 2026-05-12 | 5 | 0 | 15 | 8 | 34 | 8 |
+| 360d | 2025-11-13 | 7 | 0 | 22 | 12 | 69 | 10 |
+| last720d | 2024-11-18 | 10 | 0 | 31 | 31 | 137 | 13 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [7z2605-arm.exe](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-arm.exe) | 1.6 MiB | `other` |
-| [7z2605-arm64.exe](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-arm64.exe) | 1.5 MiB | `other` |
-| [7z2605-extra.7z](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-extra.7z) | 1.7 MiB | `other` |
-| [7z2605-linux-arm.tar.xz](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-linux-arm.tar.xz) | 1.2 MiB | `native/linux/arm` |
-| [7z2605-linux-arm64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-linux-arm64.tar.xz) | 1.3 MiB | `native/linux/arm64` |
-| [7z2605-linux-x64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-linux-x64.tar.xz) | 1.5 MiB | `other` |
-| [7z2605-linux-x86.tar.xz](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-linux-x86.tar.xz) | 1.6 MiB | `other` |
-| [7z2605-mac.tar.xz](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-mac.tar.xz) | 1.8 MiB | `other` |
-| [7z2605-src.7z](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-src.7z) | 1.5 MiB | `other` |
-| [7z2605-src.tar.xz](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-src.tar.xz) | 1.5 MiB | `other` |
-| [7z2605-x64.exe](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.exe) | 1.6 MiB | `other` |
-| [7z2605-x64.msi](https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.msi) | 1.9 MiB | `other` |
-| [7z2605.exe](https://github.com/ip7z/7zip/releases/download/26.05/7z2605.exe) | 1.3 MiB | `other` |
-| [7z2605.msi](https://github.com/ip7z/7zip/releases/download/26.05/7z2605.msi) | 1.5 MiB | `other` |
-| [7zr.exe](https://github.com/ip7z/7zip/releases/download/26.05/7zr.exe) | 588.5 KiB | `other` |
-| [lzma2605.7z](https://github.com/ip7z/7zip/releases/download/26.05/lzma2605.7z) | 1.7 MiB | `other` |
+| [7z2606-arm.exe](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-arm.exe) | 1.6 MiB | `other` |
+| [7z2606-arm64.exe](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-arm64.exe) | 1.5 MiB | `other` |
+| [7z2606-extra.7z](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-extra.7z) | 1.7 MiB | `other` |
+| [7z2606-linux-arm.tar.xz](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-linux-arm.tar.xz) | 1.2 MiB | `native/linux/arm` |
+| [7z2606-linux-arm64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-linux-arm64.tar.xz) | 1.3 MiB | `native/linux/arm64` |
+| [7z2606-linux-x64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-linux-x64.tar.xz) | 1.5 MiB | `other` |
+| [7z2606-linux-x86.tar.xz](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-linux-x86.tar.xz) | 1.6 MiB | `other` |
+| [7z2606-mac-x64.tar.xz](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-mac-x64.tar.xz) | 1001.2 KiB | `other` |
+| [7z2606-mac.tar.xz](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-mac.tar.xz) | 943.1 KiB | `other` |
+| [7z2606-src.7z](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-src.7z) | 1.5 MiB | `other` |
+| [7z2606-src.tar.xz](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-src.tar.xz) | 1.5 MiB | `other` |
+| [7z2606-x64.exe](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.exe) | 1.6 MiB | `other` |
+| [7z2606-x64.msi](https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.msi) | 1.9 MiB | `other` |
+| [7z2606.exe](https://github.com/ip7z/7zip/releases/download/26.06/7z2606.exe) | 1.3 MiB | `other` |
+| [7z2606.msi](https://github.com/ip7z/7zip/releases/download/26.06/7z2606.msi) | 1.5 MiB | `other` |
+| [7zr.exe](https://github.com/ip7z/7zip/releases/download/26.06/7zr.exe) | 586.0 KiB | `other` |
+| [lzma2606.7z](https://github.com/ip7z/7zip/releases/download/26.06/lzma2606.7z) | 1.7 MiB | `other` |
 
 ## Distribution status
 
-Reported by **244** distros on [repology.org](https://repology.org/project/7zip). **52** are ✅ on the latest upstream release, **104** are ⚠️ on an older version.
+Reported by **245** distros on [repology.org](https://repology.org/project/7zip). **10** are ✅ on the latest upstream release, **146** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `26.05` | ✅ latest |
-| Debian 14 | `26.05` | ✅ latest |
-| Debian 13 | `25.01` | ⚠️ outdated |
+| Debian unstable | `26.05` | ⚠️ outdated |
+| Debian 14 | `26.05` | ⚠️ outdated |
+| Debian 13 | `25.00` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
-| Arch | `26.05` | ✅ latest |
-| Homebrew | `26.05` | ✅ latest |
-| Fedora rawhide | `26.05` | ✅ latest |
+| Arch | `26.05` | ⚠️ outdated |
+| Homebrew | `26.06` | ✅ latest |
+| Fedora rawhide | `26.05` | ⚠️ outdated |
 | Nix unstable | `26.04` | ⚠️ outdated |
-| Void | `26.05` | ✅ latest |
-| Alpine edge | `26.05` | ✅ latest |
+| Void | `26.05` | ⚠️ outdated |
+| Alpine edge | `26.05` | ⚠️ outdated |
 | openSUSE Tumbleweed | `26.04` | ⚠️ outdated |
 
 ## Improve this data
@@ -103,4 +104,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T07:15:53Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T07:17:23Z._
