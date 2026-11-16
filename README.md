@@ -37,22 +37,22 @@ Total: **266,788** lines of code across **1098** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,516 · **Forks**: 505 · **Open issues**: 228 · **Contributors**: 1
+- **Stars**: 4,524 · **Forks**: 510 · **Open issues**: 228 · **Contributors**: 1
 
 ## Totals (cumulative)
 
-- **Releases**: 18 · **Merged PRs**: 0 · **Open PRs**: 34 · **Closed issues**: 47 · **Open issues**: 181 · **Commits**: 22
+- **Releases**: 18 · **Merged PRs**: 0 · **Open PRs**: 35 · **Closed issues**: 47 · **Open issues**: 181 · **Commits**: 22
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 2 | 0 | 7 | 2 | 11 | 5 |
-| last60d | 2026-09-16 | 3 | 0 | 8 | 3 | 16 | 6 |
-| 90d | 2026-08-17 | 4 | 0 | 11 | 4 | 20 | 7 |
-| last180d | 2026-05-19 | 5 | 0 | 15 | 8 | 37 | 8 |
-| 360d | 2025-11-20 | 7 | 0 | 22 | 12 | 71 | 10 |
-| last720d | 2024-11-25 | 10 | 0 | 31 | 31 | 141 | 13 |
+| 30d | 2026-10-17 | 2 | 0 | 8 | 2 | 10 | 4 |
+| last60d | 2026-09-17 | 3 | 0 | 9 | 3 | 16 | 6 |
+| 90d | 2026-08-18 | 4 | 0 | 12 | 4 | 20 | 7 |
+| last180d | 2026-05-20 | 5 | 0 | 16 | 8 | 37 | 8 |
+| 360d | 2025-11-21 | 7 | 0 | 23 | 12 | 71 | 10 |
+| last720d | 2024-11-26 | 10 | 0 | 32 | 31 | 141 | 13 |
 
 ## Release assets
 
@@ -78,13 +78,13 @@ Total: **266,788** lines of code across **1098** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **251** distros on [repology.org](https://repology.org/project/7zip). **44** are ✅ on the latest upstream release, **114** are ⚠️ on an older version.
+Reported by **251** distros on [repology.org](https://repology.org/project/7zip). **49** are ✅ on the latest upstream release, **109** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `26.06` | ✅ latest |
 | Debian 14 | `26.06` | ✅ latest |
-| Debian 13 | `25.00` | ⚠️ outdated |
+| Debian 13 | `25.01` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.06` | ✅ latest |
@@ -92,7 +92,7 @@ Reported by **251** distros on [repology.org](https://repology.org/project/7zip)
 | Fedora rawhide | `26.05` | ⚠️ outdated |
 | Nix unstable | `26.04` | ⚠️ outdated |
 | Void | `26.06` | ✅ latest |
-| Alpine edge | `26.05` | ⚠️ outdated |
+| Alpine edge | `26.06` | ✅ latest |
 | openSUSE Tumbleweed | `26.04` | ⚠️ outdated |
 
 ## Improve this data
@@ -104,4 +104,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:58:48Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:44:59Z._

@@ -37,22 +37,22 @@ x install 7zip
 
 ## 流行度
 
-- **Star**: 4,516 · **Fork**: 505 · **开放 issue**: 228 · **贡献者**: 1
+- **Star**: 4,524 · **Fork**: 510 · **开放 issue**: 228 · **贡献者**: 1
 
 ## 累计统计
 
-- **发布数**: 18 · **已合并 PR**: 0 · **开放 PR**: 34 · **已关闭 issue**: 47 · **开放 issue**: 181 · **提交数**: 22
+- **发布数**: 18 · **已合并 PR**: 0 · **开放 PR**: 35 · **已关闭 issue**: 47 · **开放 issue**: 181 · **提交数**: 22
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 2 | 0 | 7 | 2 | 11 | 5 |
-| last60d | 2026-09-16 | 3 | 0 | 8 | 3 | 16 | 6 |
-| 90d | 2026-08-17 | 4 | 0 | 11 | 4 | 20 | 7 |
-| last180d | 2026-05-19 | 5 | 0 | 15 | 8 | 37 | 8 |
-| 360d | 2025-11-20 | 7 | 0 | 22 | 12 | 71 | 10 |
-| last720d | 2024-11-25 | 10 | 0 | 31 | 31 | 141 | 13 |
+| 30d | 2026-10-17 | 2 | 0 | 8 | 2 | 10 | 4 |
+| last60d | 2026-09-17 | 3 | 0 | 9 | 3 | 16 | 6 |
+| 90d | 2026-08-18 | 4 | 0 | 12 | 4 | 20 | 7 |
+| last180d | 2026-05-20 | 5 | 0 | 16 | 8 | 37 | 8 |
+| 360d | 2025-11-21 | 7 | 0 | 23 | 12 | 71 | 10 |
+| last720d | 2024-11-26 | 10 | 0 | 32 | 31 | 141 | 13 |
 
 ## Release 资产
 
@@ -78,13 +78,13 @@ x install 7zip
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/7zip) 上共有 **251** 个发行版报告此项目。**44** 个 ✅ 已是最新上游版本，**114** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/7zip) 上共有 **251** 个发行版报告此项目。**49** 个 ✅ 已是最新上游版本，**109** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Debian unstable | `26.06` | ✅ latest |
 | Debian 14 | `26.06` | ✅ latest |
-| Debian 13 | `25.00` | ⚠️ outdated |
+| Debian 13 | `25.01` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.06` | ✅ latest |
@@ -92,7 +92,7 @@ x install 7zip
 | Fedora rawhide | `26.05` | ⚠️ outdated |
 | Nix unstable | `26.04` | ⚠️ outdated |
 | Void | `26.06` | ✅ latest |
-| Alpine edge | `26.05` | ⚠️ outdated |
+| Alpine edge | `26.06` | ✅ latest |
 | openSUSE Tumbleweed | `26.04` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -104,4 +104,4 @@ x install 7zip
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261115.yml` · 2026-11-15T07:58:48Z._
+_数据快照: `data/card/261116.yml` · 2026-11-16T08:45:00Z._
