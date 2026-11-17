@@ -37,7 +37,7 @@ x install 7zip
 
 ## 流行度
 
-- **Star**: 4,524 · **Fork**: 510 · **开放 issue**: 228 · **贡献者**: 1
+- **Star**: 4,535 · **Fork**: 512 · **开放 issue**: 228 · **贡献者**: 1
 
 ## 累计统计
 
@@ -47,12 +47,12 @@ x install 7zip
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 0 | 8 | 2 | 10 | 4 |
-| last60d | 2026-09-17 | 3 | 0 | 9 | 3 | 16 | 6 |
-| 90d | 2026-08-18 | 4 | 0 | 12 | 4 | 20 | 7 |
-| last180d | 2026-05-20 | 5 | 0 | 16 | 8 | 37 | 8 |
-| 360d | 2025-11-21 | 7 | 0 | 23 | 12 | 71 | 10 |
-| last720d | 2024-11-26 | 10 | 0 | 32 | 31 | 141 | 13 |
+| 30d | 2026-10-18 | 2 | 0 | 8 | 2 | 9 | 4 |
+| last60d | 2026-09-18 | 3 | 0 | 9 | 3 | 16 | 6 |
+| 90d | 2026-08-19 | 4 | 0 | 12 | 4 | 20 | 7 |
+| last180d | 2026-05-21 | 5 | 0 | 16 | 8 | 37 | 8 |
+| 360d | 2025-11-22 | 7 | 0 | 23 | 12 | 71 | 10 |
+| last720d | 2024-11-27 | 10 | 0 | 32 | 31 | 141 | 13 |
 
 ## Release 资产
 
@@ -78,18 +78,18 @@ x install 7zip
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/7zip) 上共有 **251** 个发行版报告此项目。**49** 个 ✅ 已是最新上游版本，**109** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/7zip) 上共有 **252** 个发行版报告此项目。**51** 个 ✅ 已是最新上游版本，**107** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Debian unstable | `26.06` | ✅ latest |
 | Debian 14 | `26.06` | ✅ latest |
-| Debian 13 | `25.01` | ⚠️ outdated |
+| Debian 13 | `25.00` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.06` | ✅ latest |
 | Homebrew | `26.06` | ✅ latest |
-| Fedora rawhide | `26.05` | ⚠️ outdated |
+| Fedora rawhide | `26.06` | ✅ latest |
 | Nix unstable | `26.04` | ⚠️ outdated |
 | Void | `26.06` | ✅ latest |
 | Alpine edge | `26.06` | ✅ latest |
@@ -104,4 +104,4 @@ x install 7zip
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:45:00Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T11:14:34Z._
