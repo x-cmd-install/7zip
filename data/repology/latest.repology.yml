@@ -1,3 +1,25 @@
+- repo: aixtoolbox
+  srcname: 7zip
+  visiblename: 7zip
+  version: "26.06"
+  origversion: 26.06-1
+  status: newest
+  summary: A file archiver
+  licenses:
+    - LGPL-2.1-or-later AND BSD-3-Clause AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "26.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
 - repo: alpine_edge
   subrepo: main
   srcname: 7zip
@@ -147,13 +169,6 @@
   version: "26.03"
   origversion: null
   status: outdated
-- repo: homebrew
-  srcname: sevenzip
-  visiblename: sevenzip
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: 7-Zip is a file archiver with a high compression ratio
 - repo: debian_14
   subrepo: forky/non-free
   srcname: 7zip-rar
@@ -211,6 +226,19 @@
   categories:
     - non-free/misc
 - repo: devuan_unstable
+  subrepo: unstable/non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.06"
+  origversion: 26.06-1
+  status: newest
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
+- repo: devuan_unstable
   subrepo: unstable/main
   srcname: 7zip
   binnames:
@@ -225,19 +253,6 @@
     - daissi@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.06"
-  origversion: 26.06-1
-  status: newest
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
 - repo: epel_9
   srcname: 7zip
   binnames:
@@ -286,19 +301,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - app-arch
-- repo: kali_rolling
-  subrepo: non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.05"
-  origversion: 26.05-1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
 - repo: fedora_43
   subrepo: updates
   srcname: 7zip
@@ -426,6 +428,26 @@
   origversion: null
   status: newest
   summary: 7-Zip is a file archiver with a high compression ratio
+- repo: homebrew
+  srcname: sevenzip
+  visiblename: sevenzip
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: 7-Zip is a file archiver with a high compression ratio
+- repo: kali_rolling
+  subrepo: non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.06"
+  origversion: 26.06-1
+  status: newest
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
 - repo: kali_rolling
   subrepo: main
   srcname: 7zip
@@ -433,9 +455,9 @@
     - 7zip
     - 7zip-standalone
   visiblename: 7zip
-  version: "26.05"
-  origversion: 26.05+dfsg-1
-  status: outdated
+  version: "26.06"
+  origversion: 26.06+dfsg-1
+  status: newest
   maintainers:
     - yokota.hgml@gmail.com
     - daissi@debian.org
@@ -606,17 +628,6 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "26.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
   version: "26.4"
   origversion: null
   status: legacy
@@ -694,9 +705,9 @@
   srcname: archivers/7zip
   binname: 7zip
   visiblename: archivers/7zip
-  version: "26.03"
+  version: "26.06"
   origversion: null
-  status: outdated
+  status: newest
   summary: file archiver with a high compression ratio
   maintainers:
     - gkoehler@openbsd.org
@@ -706,9 +717,9 @@
   srcname: archivers/7zip
   binname: 7zip
   visiblename: archivers/7zip
-  version: "26.03"
+  version: "26.06"
   origversion: null
-  status: outdated
+  status: newest
   summary: file archiver with a high compression ratio
   maintainers:
     - gkoehler@openbsd.org
@@ -718,9 +729,9 @@
   srcname: archivers/7zip
   binname: 7zip-rar
   visiblename: archivers/7zip
-  version: "26.03"
+  version: "26.06"
   origversion: null
-  status: outdated
+  status: newest
   summary: RAR decompression for 7-Zip
   maintainers:
     - gkoehler@openbsd.org
@@ -1056,34 +1067,6 @@
   status: newest
   summary: Library for archiving file with a high compression ratio.
 - repo: void_x86_64
-  subrepo: x86_64
-  srcname: 7zip
-  binname: 7zip
-  visiblename: 7zip
-  version: "26.06"
-  origversion: "26.06_1"
-  status: newest
-  summary: File archiver with a high compression ratio
-  maintainers:
-    - io@r-ricci.it
-  licenses:
-    - LGPL-2.1-or-later
-    - BSD-3-Clause
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: 7zip
-  binname: p7zip
-  visiblename: p7zip
-  version: "26.06"
-  origversion: "26.06_1"
-  status: newest
-  summary: Command-line version of the 7zip compressed file archive (transitional dummy package)
-  maintainers:
-    - io@r-ricci.it
-  licenses:
-    - LGPL-2.1-or-later
-    - BSD-3-Clause
-- repo: void_x86_64
   subrepo: nonfree/x86_64
   srcname: 7zip
   binname: 7zip-unrar
@@ -1112,6 +1095,34 @@
   licenses:
     - LGPL-2.1-or-later
     - BSD-3-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: 7zip
+  binname: 7zip
+  visiblename: 7zip
+  version: "26.06"
+  origversion: "26.06_1"
+  status: newest
+  summary: File archiver with a high compression ratio
+  maintainers:
+    - io@r-ricci.it
+  licenses:
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: 7zip
+  binname: p7zip
+  visiblename: p7zip
+  version: "26.06"
+  origversion: "26.06_1"
+  status: newest
+  summary: Command-line version of the 7zip compressed file archive (transitional dummy package)
+  maintainers:
+    - io@r-ricci.it
+  licenses:
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
 - repo: wikidata
   srcname: Q215051
   visiblename: 7-Zip
@@ -1122,22 +1133,10 @@
   licenses:
     - GNU Lesser General Public License
 - repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "18.5"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "18.6"
+  version: "15.14"
   origversion: null
   status: legacy
   licenses:
@@ -1149,254 +1148,13 @@
   srcname: org.7-zip.SevenZIPA
   binname: org.7-zip.SevenZIPA
   visiblename: 7-ZIP A
-  version: "18.6"
+  version: "15.14"
   origversion: null
   status: legacy
   licenses:
     - 7-zip license
   categories:
     - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "21.6"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: 21.7.0.1
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "22.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "23"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "23.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "23.1"
-  origversion: null
-  status: outdated
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.5"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.6"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.7"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.8"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "24.9"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "25"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "25.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "26"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "26.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "26.2"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: mx_21_testing
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "24.09"
-  origversion: 24.09+ds-1~mx21+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
-  categories:
-    - non-free/utils
   vulnerable: true
 - repo: alpine_3_17
   subrepo: community
@@ -1650,6 +1408,22 @@
     - yokota.hgml@gmail.com
     - daissi@debian.org
   vulnerable: true
+- repo: nix_stable_25_11
+  srcname: _7zz-rar
+  visiblename: 7zz
+  version: "25.01"
+  origversion: null
+  status: outdated
+  summary: Command line archiver utility
+  maintainers:
+    - anna328p@gmail.com
+    - hello+nixpkgs@j-k.io
+    - peter@hoeg.com
+  licenses:
+    - LGPL-2.0-or-later
+    - BSD-3-Clause
+    - Unfree
+  vulnerable: true
 - repo: aur
   srcname: 7zip-docs
   binname: 7zip-docs
@@ -1689,21 +1463,6 @@
   summary: 7-Zip is a file archiver with a high compression ratio.
   vulnerable: true
 - repo: debian_12
-  subrepo: bookworm/main
-  srcname: 7zip
-  binnames:
-    - 7zip
-  visiblename: 7zip
-  version: 22.01+really26.01
-  origversion: 22.01+really26.01+dfsg-0+deb12u1
-  status: legacy
-  maintainers:
-    - yokota.hgml@gmail.com
-    - daissi@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_12
   subrepo: bookworm-security/main
   srcname: 7zip
   binnames:
@@ -1712,6 +1471,21 @@
   version: 22.01+really26.02
   origversion: 22.01+really26.02+dfsg-0+deb12u1
   status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+    - daissi@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: 7zip
+  binnames:
+    - 7zip
+  visiblename: 7zip
+  version: 22.01+really26.01
+  origversion: 22.01+really26.01+dfsg-0+deb12u1
+  status: legacy
   maintainers:
     - yokota.hgml@gmail.com
     - daissi@debian.org
@@ -1749,20 +1523,6 @@
     - non-free/misc
   vulnerable: true
 - repo: debian_13
-  subrepo: trixie/non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "25.00"
-  origversion: 25.00+ds-1+deb13u1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
-  vulnerable: true
-- repo: debian_13
   subrepo: trixie/main
   srcname: 7zip
   binnames:
@@ -1777,6 +1537,20 @@
     - daissi@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: debian_13
+  subrepo: trixie/non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "25.00"
+  origversion: 25.00+ds-1+deb13u1
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
   vulnerable: true
 - repo: deepin_23
   subrepo: community
@@ -1809,6 +1583,18 @@
     - daissi@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "18.5"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
   vulnerable: true
 - repo: fedora_43
   subrepo: release
@@ -1846,6 +1632,18 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "26.2"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
 - repo: gobolinux
   srcname: 7Zip
   visiblename: 7Zip
@@ -1871,18 +1669,6 @@
     - LGPL-2 BSD rar? ( unRAR )
   categories:
     - app-arch
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIP
-  binname: org.7-zip.SevenZIP
-  visiblename: 7-ZIP
-  version: "21.7"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
   vulnerable: true
 - repo: mageia_10
   subrepo: core/updates
@@ -1938,6 +1724,22 @@
   categories:
     - Archiving/Compression
   vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: 7zip
+  binnames:
+    - 7zip
+    - 7zip-standalone
+  visiblename: 7zip
+  version: "25.01"
+  origversion: 25.01+dfsg-1~deb13u2
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+    - daissi@debian.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: mx_21_testing
   srcname: 7zip
   binnames:
@@ -1952,6 +1754,19 @@
     - daissi@debian.org
   categories:
     - utils
+  vulnerable: true
+- repo: mx_21_testing
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "24.09"
+  origversion: 24.09+ds-1~mx21+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+  categories:
+    - non-free/utils
   vulnerable: true
 - repo: mx_23_testing
   srcname: 7zip
@@ -2119,21 +1934,185 @@
     - LGPL-2.0-or-later
     - BSD-3-Clause
   vulnerable: true
-- repo: nix_stable_25_11
-  srcname: _7zz-rar
-  visiblename: 7zz
-  version: "25.01"
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "4.65"
   origversion: null
-  status: outdated
-  summary: Command line archiver utility
-  maintainers:
-    - anna328p@gmail.com
-    - hello+nixpkgs@j-k.io
-    - peter@hoeg.com
+  status: legacy
   licenses:
-    - LGPL-2.0-or-later
-    - BSD-3-Clause
-    - Unfree
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "4.65"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "9.20"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "9.20"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "15.12"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "15.12"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "16.2"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "16.2"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "16.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "16.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "18.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "18.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "18.5"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "18.6"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIPA
+  binname: org.7-zip.SevenZIPA
+  visiblename: 7-ZIP A
+  version: "18.6"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
   vulnerable: true
 - repo: npackd_stable
   srcname: org.7-zip.SevenZIP
@@ -2151,19 +2130,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "4.65"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "4.65"
+  version: "21.6"
   origversion: null
   status: legacy
   licenses:
@@ -2175,19 +2142,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "9.20"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "9.20"
+  version: "21.7"
   origversion: null
   status: legacy
   licenses:
@@ -2199,19 +2154,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "15.12"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "15.12"
+  version: 21.7.0.1
   origversion: null
   status: legacy
   licenses:
@@ -2223,19 +2166,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "15.14"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "15.14"
+  version: "22.1"
   origversion: null
   status: legacy
   licenses:
@@ -2247,19 +2178,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "16.2"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "16.2"
+  version: "23"
   origversion: null
   status: legacy
   licenses:
@@ -2271,7 +2190,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "16.4"
+  version: "23.1"
   origversion: null
   status: legacy
   licenses:
@@ -2283,7 +2202,19 @@
   srcname: org.7-zip.SevenZIPA
   binname: org.7-zip.SevenZIPA
   visiblename: 7-ZIP A
-  version: "16.4"
+  version: "23.1"
+  origversion: null
+  status: outdated
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.1"
   origversion: null
   status: legacy
   licenses:
@@ -2295,19 +2226,7 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "18.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - 7-zip license
-  categories:
-    - Tools
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.7-zip.SevenZIPA
-  binname: org.7-zip.SevenZIPA
-  visiblename: 7-ZIP A
-  version: "18.1"
+  version: "24.3"
   origversion: null
   status: legacy
   licenses:
@@ -2319,7 +2238,115 @@
   srcname: org.7-zip.SevenZIP
   binname: org.7-zip.SevenZIP
   visiblename: 7-ZIP
-  version: "18.5"
+  version: "24.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.5"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.6"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.7"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.8"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "24.9"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "25"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "25.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "26"
+  origversion: null
+  status: legacy
+  licenses:
+    - 7-zip license
+  categories:
+    - Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.7-zip.SevenZIP
+  binname: org.7-zip.SevenZIP
+  visiblename: 7-ZIP
+  version: "26.1"
   origversion: null
   status: legacy
   licenses:
@@ -2769,6 +2796,19 @@
     - Archiving/Compression
   vulnerable: true
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: 7zip
+  visiblename: 7zip
+  version: "23.01"
+  origversion: 23.01-lp156.1.4
+  status: legacy
+  summary: Command-line file archiver with high compression ratio
+  licenses:
+    - BSD-3-Clause AND LGPL-2.1-or-later AND SUSE-Public-Domain
+  categories:
+    - Productivity/Archiving/Compression
+  vulnerable: true
+- repo: opensuse_leap_15_6
   subrepo: updates/oss
   srcname: 7zip
   visiblename: 7zip
@@ -2788,19 +2828,6 @@
   version: "25.01"
   origversion: 25.01-150400.9.3.1
   status: outdated
-  summary: Command-line file archiver with high compression ratio
-  licenses:
-    - BSD-3-Clause AND LGPL-2.1-or-later AND SUSE-Public-Domain
-  categories:
-    - Productivity/Archiving/Compression
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: 7zip
-  visiblename: 7zip
-  version: "23.01"
-  origversion: 23.01-lp156.1.4
-  status: legacy
   summary: Command-line file archiver with high compression ratio
   licenses:
     - BSD-3-Clause AND LGPL-2.1-or-later AND SUSE-Public-Domain
@@ -2851,22 +2878,6 @@
   categories:
     - non-free/misc
   vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: 7zip
-  binnames:
-    - 7zip
-    - 7zip-standalone
-  visiblename: 7zip
-  version: "25.01"
-  origversion: 25.01+dfsg-1~deb13u2
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-    - daissi@debian.org
-  categories:
-    - misc
-  vulnerable: true
 - repo: pkgsrc_2026_2
   srcname: archivers/7-zip
   binname: 7-zip
@@ -2912,6 +2923,20 @@
     - misc
   vulnerable: true
 - repo: raspbian_stable
+  subrepo: non-free
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "25.00"
+  origversion: 25.00+ds-1+deb13u1
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - non-free/misc
+  vulnerable: true
+- repo: raspbian_stable
   subrepo: main
   srcname: 7zip
   binnames:
@@ -2926,20 +2951,6 @@
     - daissi@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: non-free
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "25.00"
-  origversion: 25.00+ds-1+deb13u1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - non-free/misc
   vulnerable: true
 - repo: reactos
   srcname: 7zip
@@ -2961,20 +2972,6 @@
   status: outdated
   licenses:
     - LGPL-2.1-or-later
-  vulnerable: true
-- repo: ubuntu_26_04
-  subrepo: resolute/multiverse
-  srcname: 7zip-rar
-  binnames:
-    - 7zip-rar
-  visiblename: 7zip-rar
-  version: "26.00"
-  origversion: 26.00+ds-1
-  status: outdated
-  maintainers:
-    - yokota.hgml@gmail.com
-  categories:
-    - multiverse/misc
   vulnerable: true
 - repo: spack
   srcname: 7zip
@@ -3093,6 +3090,20 @@
     - daissi@debian.org
   categories:
     - universe/misc
+  vulnerable: true
+- repo: ubuntu_26_04
+  subrepo: resolute/multiverse
+  srcname: 7zip-rar
+  binnames:
+    - 7zip-rar
+  visiblename: 7zip-rar
+  version: "26.00"
+  origversion: 26.00+ds-1
+  status: outdated
+  maintainers:
+    - yokota.hgml@gmail.com
+  categories:
+    - multiverse/misc
   vulnerable: true
 - repo: ubuntu_26_04
   subrepo: resolute/universe
