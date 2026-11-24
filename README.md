@@ -37,7 +37,7 @@ Total: **266,788** lines of code across **1098** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,582 · **Forks**: 517 · **Open issues**: 231 · **Contributors**: 1
+- **Stars**: 4,593 · **Forks**: 518 · **Open issues**: 231 · **Contributors**: 1
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **266,788** lines of code across **1098** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 0 | 9 | 2 | 10 | 0 |
-| last60d | 2026-09-24 | 3 | 0 | 11 | 3 | 18 | 0 |
-| 90d | 2026-08-25 | 4 | 0 | 14 | 4 | 23 | 0 |
-| last180d | 2026-05-27 | 5 | 0 | 18 | 7 | 39 | 0 |
-| 360d | 2025-11-28 | 7 | 0 | 25 | 13 | 73 | 0 |
-| last720d | 2024-12-03 | 9 | 0 | 34 | 32 | 140 | 12 |
+| 30d | 2026-10-25 | 1 | 0 | 9 | 2 | 10 | 4 |
+| last60d | 2026-09-25 | 3 | 0 | 11 | 3 | 17 | 6 |
+| 90d | 2026-08-26 | 4 | 0 | 14 | 4 | 23 | 7 |
+| last180d | 2026-05-28 | 5 | 0 | 18 | 7 | 38 | 8 |
+| 360d | 2025-11-29 | 7 | 0 | 25 | 12 | 72 | 10 |
+| last720d | 2024-12-04 | 9 | 0 | 34 | 32 | 140 | 12 |
 
 ## Release assets
 
@@ -78,13 +78,13 @@ Total: **266,788** lines of code across **1098** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **245** distros on [repology.org](https://repology.org/project/7zip). **62** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
+Reported by **245** distros on [repology.org](https://repology.org/project/7zip). **63** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `26.06` | ✅ latest |
 | Debian 14 | `26.06` | ✅ latest |
-| Debian 13 | `25.01` | ⚠️ outdated |
+| Debian 13 | `25.00` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `26.00` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `23.01` | ⚠️ outdated |
 | Arch | `26.06` | ✅ latest |
@@ -104,4 +104,4 @@ Install metadata for 7zip lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:34:41Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:55:35Z._
